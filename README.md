@@ -10,3 +10,14 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Using the bijective mapping part of the definition, two graphs are isomorphic if each
+element in graph $A$ can be mapped to exactly one element in graph $B$ using a function,
+and vice versa.  
+
+Since the graphs are completely connected, each node in the graphs are connected to every 
+other node.  This means any node in graph $A$ can be mapped to a node in map $B$, since the
+edges will be the same.  
+
+Therefore, any permation of graph $A$ nodes can be bijectively mapped
+to graph $B$ nodes, and they must be isomorphic.  
