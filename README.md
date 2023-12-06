@@ -15,10 +15,14 @@ Using the bijective mapping part of the definition, two graphs are isomorphic if
 element in graph $A$ can be mapped to exactly one element in graph $B$ using a function,
 and vice versa.  
 
-Since the graphs are completely connected, each node in the graphs is connected to every 
-other node.  This means any node in graph $A$ can be mapped to a node in map $B$, since the
-edges will be the same.  This mapping would be bijective, as mapping each node in $A$
-be mapped to a unique node in $B$ would be a one-to-one and onto function.
+For each node in graph A, there exists an edge connecting it to each
+other node in $A$, as that is required for a graph to be completely connected.  Therefore, 
+graph $B$ would have the same number of edges as $A$, as it is also completely connected, 
+and has the same number of nodes.  This means any node in graph $A$ can be mapped to a node 
+in map $B$, since the edges will be the same. 
+ 
+Every node in $A$ can be mapped to a unique node in $B$, as they have the same number of nodes
+and edges.  Any permation of graph $A$ nodes can be bijectively mapped to graph $B$ nodes, as each 
+element in $A$ can be mapped to exactly one in $B$.  
 
-Therefore, any permation of graph $A$ nodes can be bijectively mapped
-to graph $B$ nodes, and they must be isomorphic.  
+This fulfills the definition of isomorphic, as $A$ can be bijectively mapped to $B$.
